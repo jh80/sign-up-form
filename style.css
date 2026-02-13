@@ -65,7 +65,7 @@ div.form-case, form {
     padding: 1rem 2rem;
 }
 
-div.form-body {
+div.form {
     background-color: #fcfcfc;
     height: 32vh;
 }
@@ -82,10 +82,27 @@ div.form-case.end {
 p {
     padding: .4rem 0;
     line-height: 1.5rem;
-    /* width: 50ch; */
+    /* max-width: 60ch; */
 }
 
 div.form-case section.intro {
     position: absolute;
     bottom: 1rem;
+}
+
+div.form-body div.form-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+form .form-input {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 2rem .5rem 0;
+}
+
+form section.info-category {
+    display: flex;
+    flex-direction: row;
 }
