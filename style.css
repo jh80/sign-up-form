@@ -103,7 +103,25 @@ form .form-input {
     margin: .5rem 2rem .5rem 0;
 }
 
+form h2 {
+    font-size: .9rem;
+}
+
+form label {
+    color: #333333;
+    font-size: .55rem;
+}
+
 form section.info-category {
     display: flex;
     flex-direction: row;
+}
+
+form button {
+    color: #fcfcfc;
+    background-color: #225599;
+    font-size: .70rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem ;
+    border: none;
 }
