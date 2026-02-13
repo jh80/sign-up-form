@@ -30,7 +30,7 @@ img.banner-logo {
     height: 3rem;
 }
 
-div.side-banner {
+div.aside-banner {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
