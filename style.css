@@ -16,7 +16,7 @@ aside {
     background-image: url("images/chinh-le-duc-P19iVmm7XUA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: calc(.65*var(--aside-height));
+    min-width: calc(.55*var(--aside-height));
     /* display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -82,7 +82,8 @@ div.form-case.end {
 p {
     padding: .4rem 0;
     line-height: 1.5rem;
-    /* max-width: 60ch; */
+    min-width: 40ch;
+    max-width: 60ch;
 }
 
 div.form-case section.intro {
