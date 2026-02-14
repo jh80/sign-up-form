@@ -86,10 +86,13 @@ div.form-case.end {
 }
 
 p {
-    padding: .4rem 0;
     line-height: 1.5rem;
     min-width: 40ch;
     max-width: 60ch;
+}
+
+p#persuasion{
+    padding: .4rem 0 0 0;
 }
 
 div.form-case section.intro {
