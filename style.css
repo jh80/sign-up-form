@@ -187,6 +187,9 @@ form input:focus {
     box-shadow: 1px 2px 5px #cccccc;
 }
 
+form input:invalid{
+    border-color: rgb(206, 9, 9);
+}
 p.end {
     font-size: .70rem;
     font-weight: normal;
