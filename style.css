@@ -58,8 +58,9 @@ div.aside-banner {
 div.aside-banner h1 {
     font-family: 'Macondo', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
-}
-    
+    color: #fcfcfc;
+}    
+
 cite {
     font-size: .75rem;
     font-style: normal;
