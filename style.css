@@ -151,3 +151,7 @@ form input:focus {
     border-width: .1rem;
     box-shadow: 1px 2px 5px #cccccc;
 }
+
+p.end {
+    font-size: .70rem;
+}
