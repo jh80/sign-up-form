@@ -46,7 +46,6 @@ aside {
     background-size: cover;
     background-repeat: no-repeat;
     min-width: calc(.52*var(--aside-height));
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: stretch;
