@@ -32,6 +32,8 @@
 }
 
 body {
+    --aside-height: 100vh;
+
     display: flex;
     flex-direction: row;
     font-size: 1rem;
@@ -39,13 +41,12 @@ body {
     color: #333333;
 }
 
-aside {    
-    --aside-height: 100vh;
-
+aside {
     background-image: url("images/chinh-le-duc-P19iVmm7XUA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     min-width: calc(.52*var(--aside-height));
+    height: var(--aside-height);
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -103,19 +104,19 @@ div.form-case, form {
 
 div form {
     background-color: #fcfcfc;
-    /* height: 32vh; */
+    height: calc(.32*var(--aside-height)); 
     position: relative;
     z-index: 1;
     box-shadow: 0px 3px 5px #cccccc;
 }
 
 div.form-case.intro {
-    height: 35vh;
+    height: calc(.35*var(--aside-height));
     text-align: left;
 }
 
 div.form-case.end {
-    height: 33vh;
+    height: calc(.33*var(--aside-height));
     position: relative;
 }
 
