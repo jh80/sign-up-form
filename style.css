@@ -197,7 +197,7 @@ form input:invalid{
     border-color: rgb(206, 9, 9);
 }
 p.end {
-    font-size: .70rem;
+    font-size: .750rem;
     font-weight: normal;
     position: absolute;
     top: 70px;
