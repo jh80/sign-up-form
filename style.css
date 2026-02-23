@@ -43,15 +43,12 @@ aside, div.form-case, form {
     --form-case-intro-min-height: fit-content;
     --form-min-height: fit-content;
     --form-case-end-min-height: fit-content;
-    --aside-height: 100vh;
 }
 
 aside {
     background-image: url("images/chinh-le-duc-P19iVmm7XUA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: calc(.52*var(--aside-height));
-    height: var(--aside-height);
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -72,7 +69,7 @@ div.aside-banner {
     align-items: center;
     font-size: 2.5rem;
     background-color: #33333380;
-    position: absolute;
+    position: relative;
     top: 20%;
     width: 100%;
 }
